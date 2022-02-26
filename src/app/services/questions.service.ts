@@ -35,7 +35,7 @@ export class QuestionsService {
             }
           ],
           answer: 0
-          },
+        },
         {
           id: 'AQ2',
           questionText: 'Fully exited the tarmac at least once?',
@@ -51,7 +51,7 @@ export class QuestionsService {
             }
           ],
           answer: 0
-          },
+        },
         {
           id: 'AQ3',
           questionText: 'Cargo in low goal?',
@@ -59,7 +59,7 @@ export class QuestionsService {
           questionItems: [
           ],
           answer: 0
-          },
+        },
         {
           id: 'AQ4',
           questionText: 'Cargo in high goal?',
@@ -67,7 +67,7 @@ export class QuestionsService {
           questionItems: [
           ],
           answer: 0
-          },
+        },
         {
           id: 'AQ5',
           questionText: 'Cargo missed low goal?',
@@ -75,7 +75,7 @@ export class QuestionsService {
           questionItems: [
           ],
           answer: 0
-          },
+        },
         {
           id: 'AQ6',
           questionText: 'Cargo missed high goal?',
@@ -83,7 +83,7 @@ export class QuestionsService {
           questionItems: [
           ],
           answer: 0
-          },
+        },
         {
           id: 'AQ7',
           questionText: 'Cargo in low goal from human?',
@@ -91,7 +91,7 @@ export class QuestionsService {
           questionItems: [
           ],
           answer: 0
-          },
+        },
         {
           id: 'AQ8',
           questionText: 'Cargo in high goal from human?',
@@ -99,7 +99,7 @@ export class QuestionsService {
           questionItems: [
           ],
           answer: 0
-          },
+        },
         {
           id: 'AQ9',
           questionText: 'Cargo missed from human?',
@@ -107,7 +107,7 @@ export class QuestionsService {
           questionItems: [
           ],
           answer: 0
-          }
+        }
       ],
 
       Teleop: [
@@ -118,7 +118,7 @@ export class QuestionsService {
           questionItems: [
           ],
           answer: 0
-          },
+        },
         {
           id: 'TQ2',
           questionText: 'Cargo in high goal?',
@@ -126,7 +126,7 @@ export class QuestionsService {
           questionItems: [
           ],
           answer: 0
-          },
+        },
         {
           id: 'TQ3',
           questionText: 'Cargo missed low goal?',
@@ -134,7 +134,7 @@ export class QuestionsService {
           questionItems: [
           ],
           answer: 0
-          },
+        },
         {
           id: 'TQ4',
           questionText: 'Cargo missed high goal?',
@@ -142,7 +142,7 @@ export class QuestionsService {
           questionItems: [
           ],
           answer: 0
-          },
+        },
         {
           id: 'TQ5',
           questionText: 'Intake method?',
@@ -166,7 +166,7 @@ export class QuestionsService {
             }
           ],
           answer: 0
-          },
+        },
         {
           id: 'TQ6',
           questionText: 'Max cargo ever in robot?',
@@ -190,7 +190,7 @@ export class QuestionsService {
             }
           ],
           answer: 0
-          },
+        },
         {
           id: 'TQ7',
           questionText: 'Wrong color cargo disposal?',
@@ -214,7 +214,7 @@ export class QuestionsService {
             }
           ],
           answer: 0
-          },
+        },
         {
           id: 'TQ8',
           questionText: 'How many times did they defend?',
@@ -222,7 +222,7 @@ export class QuestionsService {
           questionItems: [
           ],
           answer: 0
-          },
+        },
         {
           id: 'TQ9',
           questionText: 'How many fouls charged against this robot?',
@@ -230,7 +230,7 @@ export class QuestionsService {
           questionItems: [
           ],
           answer: 0
-          },
+        }
       ],
 
       EndGame: [
@@ -246,10 +246,10 @@ export class QuestionsService {
             {
               value: 1,
               itemText: 'Yes'
-            },
+            }
           ],
           answer: 0
-          },
+        },
         {
           id: 'EQ2',
           questionText: 'Low climb?',
@@ -269,7 +269,7 @@ export class QuestionsService {
             }
           ],
           answer: 0
-          },
+        },
         {
           id: 'EQ3',
           questionText: 'Mid climb?',
@@ -289,7 +289,7 @@ export class QuestionsService {
             }
           ],
           answer: 0
-          },
+        },
         {
           id: 'EQ4',
           questionText: 'High climb?',
@@ -309,7 +309,7 @@ export class QuestionsService {
             }
           ],
           answer: 0
-          },
+        },
         {
           id: 'EQ5',
           questionText: 'Traversal climb?',
@@ -329,7 +329,7 @@ export class QuestionsService {
             }
           ],
           answer: 0
-          },
+        },
         {
           id: 'EQ6',
           questionText: 'Length of time to climb in seconds?',
@@ -337,7 +337,7 @@ export class QuestionsService {
           questionItems: [
           ],
           answer: 0
-          }
+        }
       ]
     };
 
