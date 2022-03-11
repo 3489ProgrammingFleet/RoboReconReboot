@@ -75,15 +75,15 @@ export class QuestionsService {
           questionItems: [
             {
               value: 0,
-              itemText: 'N/A'
-            },
-            {
-              value: 1,
               itemText: 'No'
             },
             {
-              value: 2,
+              value: 1,
               itemText: 'Yes'
+            },
+            {
+              value: 2,
+              itemText: 'Yes-scored'
             }
           ],
           answer: 0
@@ -145,18 +145,22 @@ export class QuestionsService {
             },
             {
               value: 1,
-              itemText: 'Low'
+              itemText: 'Failed'
             },
             {
               value: 2,
-              itemText: 'Mid'
+              itemText: 'Low'
             },
             {
               value: 3,
-              itemText: 'High'
+              itemText: 'Mid'
             },
             {
               value: 4,
+              itemText: 'High'
+            },
+            {
+              value: 5,
               itemText: 'Traversal'
             }
           ],
