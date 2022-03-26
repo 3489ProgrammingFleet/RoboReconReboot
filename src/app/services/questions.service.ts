@@ -67,26 +67,6 @@ export class QuestionsService {
           questionItems: [
           ],
           answer: 0
-        },
-        {
-          id: 'AQ5',
-          questionText: 'Human player shot cargo?',
-          questionType: 2,
-          questionItems: [
-            {
-              value: 0,
-              itemText: 'No'
-            },
-            {
-              value: 1,
-              itemText: 'Yes'
-            },
-            {
-              value: 2,
-              itemText: 'Yes-scored'
-            }
-          ],
-          answer: 0
         }
       ],
 
