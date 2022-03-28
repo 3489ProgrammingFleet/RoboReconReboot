@@ -284,6 +284,10 @@ export class MatchscoutingPage implements OnInit {
       note: this.matchNote
     };
 
+    // Check notes for newline characters
+    console.log('ensuring notes do not contain newlines');
+    scoutingData.note = scoutingData.note.replace(/\n/g, " ");
+
     console.log('save function called.');
     console.log('actScoutId: ' + scoutingData.scout_id);
     console.log('scoutingDataId:' + this.scoutingDataId);
